@@ -1,0 +1,507 @@
+{
+  "id": "7d1c2a9e-5b3f-4c8e-9a6d-2f4b8c1e3d70",
+  "name": "demo",
+  "root": {
+    "id": "7afe92c8-cbcc-4766-828c-87783ab51834",
+    "type": "COLUMN",
+    "containerColor": "#FFF4F6FA",
+    "horizontalAlignment": "START",
+    "verticalArrangement": "TOP",
+    "spacing": 0,
+    "children": [
+      {
+        "id": "38590563-0453-46a7-9cba-d7d09bc656b8",
+        "type": "COLUMN",
+        "containerColor": "#FF1E293B",
+        "padding": {
+          "start": 20,
+          "top": 24,
+          "end": 20,
+          "bottom": 20
+        },
+        "spacing": 4,
+        "children": [
+          {
+            "id": "deea9429-f9cb-453a-936c-1782a9e06a0f",
+            "type": "TEXT",
+            "textContent": "Good morning, Mikhail",
+            "contentColor": "#FFCBD5E1"
+          },
+          {
+            "id": "e6e5fefe-f762-423b-ab58-0e610fa9ce45",
+            "type": "TEXT",
+            "textContent": "Where are we going next?",
+            "contentColor": "#FFFFFFFF"
+          }
+        ]
+      },
+      {
+        "id": "6fb1b39e-6a8a-47b1-b4ad-96ddd7a74397",
+        "type": "IMAGE",
+        "imageContent": "https://picsum.photos/id/1015/1200/720",
+        "contentDescription": "Fjord in Norway",
+        "width": {
+          "mode": "FILL"
+        },
+        "height": {
+          "mode": "FIXED",
+          "dp": 220
+        },
+        "onClick": {
+          "type": "SHOW_TOAST",
+          "payload": {
+            "message": "Lysefjord, Norway"
+          }
+        }
+      },
+      {
+        "id": "fbeb779d-c7ca-494e-9a59-55222aef823f",
+        "type": "COLUMN",
+        "padding": {
+          "start": 16,
+          "top": 20,
+          "end": 16,
+          "bottom": 4
+        },
+        "spacing": 12,
+        "children": [
+          {
+            "id": "13ff3bcb-1da2-4835-adcc-6a77964f3d3c",
+            "type": "TEXT",
+            "textContent": "Your year in travel",
+            "contentColor": "#FF0F172A"
+          },
+          {
+            "id": "b28adfd1-fe05-442a-a69b-25bc426c2254",
+            "type": "ROW",
+            "horizontalAlignment": "START",
+            "verticalArrangement": "CENTER",
+            "spacing": 12,
+            "children": [
+              {
+                "id": "df3cf925-559b-40c1-b3fd-7f95f1ce111e",
+                "type": "COLUMN",
+                "containerColor": "#FF2563EB",
+                "padding": {
+                  "start": 12,
+                  "top": 14,
+                  "end": 12,
+                  "bottom": 14
+                },
+                "width": {
+                  "mode": "FIXED",
+                  "dp": 118
+                },
+                "horizontalAlignment": "CENTER",
+                "spacing": 2,
+                "children": [
+                  {
+                    "id": "bfb627f9-f998-41f2-844d-5deada601d69",
+                    "type": "TEXT",
+                    "textContent": "12",
+                    "contentColor": "#FFFFFFFF"
+                  },
+                  {
+                    "id": "fa973088-8f64-4f1a-af27-713e708d2133",
+                    "type": "TEXT",
+                    "textContent": "trips",
+                    "contentColor": "#FFFFFFFF"
+                  }
+                ]
+              },
+              {
+                "id": "67a00adb-053c-4ae6-8557-dde867aaf572",
+                "type": "COLUMN",
+                "containerColor": "#FF16A34A",
+                "padding": {
+                  "start": 12,
+                  "top": 14,
+                  "end": 12,
+                  "bottom": 14
+                },
+                "width": {
+                  "mode": "FIXED",
+                  "dp": 118
+                },
+                "horizontalAlignment": "CENTER",
+                "spacing": 2,
+                "children": [
+                  {
+                    "id": "06f1a832-1177-4682-bd73-e6d5b0ec94cc",
+                    "type": "TEXT",
+                    "textContent": "48",
+                    "contentColor": "#FFFFFFFF"
+                  },
+                  {
+                    "id": "da0e30be-0f92-4e3c-87e2-2b6fef58d8e3",
+                    "type": "TEXT",
+                    "textContent": "photos",
+                    "contentColor": "#FFFFFFFF"
+                  }
+                ]
+              },
+              {
+                "id": "c8089791-f08a-4483-a345-824cfb8675d6",
+                "type": "COLUMN",
+                "containerColor": "#FFF59E0B",
+                "padding": {
+                  "start": 12,
+                  "top": 14,
+                  "end": 12,
+                  "bottom": 14
+                },
+                "width": {
+                  "mode": "FIXED",
+                  "dp": 118
+                },
+                "horizontalAlignment": "CENTER",
+                "spacing": 2,
+                "children": [
+                  {
+                    "id": "b57ec48d-303d-45c8-bf97-460b8dfed34f",
+                    "type": "TEXT",
+                    "textContent": "3",
+                    "contentColor": "#FFFFFFFF"
+                  },
+                  {
+                    "id": "d2888d34-582f-428b-ac5b-324ff82933c9",
+                    "type": "TEXT",
+                    "textContent": "badges",
+                    "contentColor": "#FFFFFFFF"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f4630d57-5105-4bc2-886a-40dd517f07bb",
+        "type": "COLUMN",
+        "padding": {
+          "start": 16,
+          "top": 20,
+          "end": 16,
+          "bottom": 4
+        },
+        "spacing": 12,
+        "children": [
+          {
+            "id": "1b30417e-b88c-412a-96df-38adb88db9c0",
+            "type": "TEXT",
+            "textContent": "Featured destinations",
+            "contentColor": "#FF0F172A"
+          },
+          {
+            "id": "1c2b6fe0-81d4-4e16-90a4-383328fae115",
+            "type": "ROW",
+            "horizontalAlignment": "START",
+            "verticalArrangement": "TOP",
+            "spacing": 12,
+            "children": [
+              {
+                "id": "6f797be2-0dc3-4a17-a17a-3a7739c1ac02",
+                "type": "COLUMN",
+                "containerColor": "#FFFFFFFF",
+                "width": {
+                  "mode": "FIXED",
+                  "dp": 118
+                },
+                "spacing": 0,
+                "children": [
+                  {
+                    "id": "bea98b2c-6a3a-4e53-ba85-963fe39493b4",
+                    "type": "IMAGE",
+                    "imageContent": "https://picsum.photos/id/1018/312/240",
+                    "contentDescription": "Dolomites",
+                    "width": {
+                      "mode": "FIXED",
+                      "dp": 118
+                    },
+                    "height": {
+                      "mode": "FIXED",
+                      "dp": 80
+                    },
+                    "onClick": {
+                      "type": "SHOW_TOAST",
+                      "payload": {
+                        "message": "Opening Dolomites..."
+                      }
+                    }
+                  },
+                  {
+                    "id": "b7b63b84-8366-48eb-a959-f9f71c64160c",
+                    "type": "COLUMN",
+                    "padding": {
+                      "start": 8,
+                      "top": 8,
+                      "end": 8,
+                      "bottom": 10
+                    },
+                    "spacing": 2,
+                    "children": [
+                      {
+                        "id": "55491ab7-e049-4255-8620-222a96f28210",
+                        "type": "TEXT",
+                        "textContent": "Dolomites",
+                        "contentColor": "#FF0F172A"
+                      },
+                      {
+                        "id": "68e86c08-b264-47ce-8a5b-369ae976e6e8",
+                        "type": "TEXT",
+                        "textContent": "Italy",
+                        "contentColor": "#FF64748B"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "c7e64595-8e50-4b06-a4e5-bab96f7e6fdf",
+                "type": "COLUMN",
+                "containerColor": "#FFFFFFFF",
+                "width": {
+                  "mode": "FIXED",
+                  "dp": 118
+                },
+                "spacing": 0,
+                "children": [
+                  {
+                    "id": "cc0a1cc1-5f5e-4b47-b018-01ec361a8926",
+                    "type": "IMAGE",
+                    "imageContent": "https://picsum.photos/id/1036/312/240",
+                    "contentDescription": "Lofoten",
+                    "width": {
+                      "mode": "FIXED",
+                      "dp": 118
+                    },
+                    "height": {
+                      "mode": "FIXED",
+                      "dp": 80
+                    },
+                    "onClick": {
+                      "type": "SHOW_TOAST",
+                      "payload": {
+                        "message": "Opening Lofoten..."
+                      }
+                    }
+                  },
+                  {
+                    "id": "5e06f056-c30e-4c96-977f-9f3f148bdcb7",
+                    "type": "COLUMN",
+                    "padding": {
+                      "start": 8,
+                      "top": 8,
+                      "end": 8,
+                      "bottom": 10
+                    },
+                    "spacing": 2,
+                    "children": [
+                      {
+                        "id": "b9953326-0f86-4bbc-acfc-4f1b398c3286",
+                        "type": "TEXT",
+                        "textContent": "Lofoten",
+                        "contentColor": "#FF0F172A"
+                      },
+                      {
+                        "id": "ef63c324-4f94-4bba-ab80-f089e00ccc74",
+                        "type": "TEXT",
+                        "textContent": "Norway",
+                        "contentColor": "#FF64748B"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "7cf9a86b-512d-4b1d-921d-b74a2bb7d078",
+                "type": "COLUMN",
+                "containerColor": "#FFFFFFFF",
+                "width": {
+                  "mode": "FIXED",
+                  "dp": 118
+                },
+                "spacing": 0,
+                "children": [
+                  {
+                    "id": "da7358d6-c29a-4758-80a9-fa59dec31c75",
+                    "type": "IMAGE",
+                    "imageContent": "https://picsum.photos/id/1039/312/240",
+                    "contentDescription": "Skogafoss",
+                    "width": {
+                      "mode": "FIXED",
+                      "dp": 118
+                    },
+                    "height": {
+                      "mode": "FIXED",
+                      "dp": 80
+                    },
+                    "onClick": {
+                      "type": "SHOW_TOAST",
+                      "payload": {
+                        "message": "Opening Skogafoss..."
+                      }
+                    }
+                  },
+                  {
+                    "id": "3be03bcc-1ba8-407e-b2a6-1462e007d710",
+                    "type": "COLUMN",
+                    "padding": {
+                      "start": 8,
+                      "top": 8,
+                      "end": 8,
+                      "bottom": 10
+                    },
+                    "spacing": 2,
+                    "children": [
+                      {
+                        "id": "8a56f8cc-42a2-477d-807d-4b889321063c",
+                        "type": "TEXT",
+                        "textContent": "Skogafoss",
+                        "contentColor": "#FF0F172A"
+                      },
+                      {
+                        "id": "e061a28d-2478-44f3-8f17-644896ac8f86",
+                        "type": "TEXT",
+                        "textContent": "Iceland",
+                        "contentColor": "#FF64748B"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2f2844d4-2a56-4eca-9b02-83fc935bc4da",
+        "type": "COLUMN",
+        "padding": {
+          "start": 16,
+          "top": 20,
+          "end": 16,
+          "bottom": 8
+        },
+        "children": [
+          {
+            "id": "9ab12c9d-4601-4501-ac36-9078d6fa2f64",
+            "type": "COLUMN",
+            "containerColor": "#FFFFFFFF",
+            "padding": {
+              "start": 16,
+              "top": 16,
+              "end": 16,
+              "bottom": 16
+            },
+            "spacing": 8,
+            "children": [
+              {
+                "id": "efe650e6-9137-4612-9002-9330efa8833f",
+                "type": "ROW",
+                "horizontalAlignment": "START",
+                "verticalArrangement": "CENTER",
+                "spacing": 12,
+                "children": [
+                  {
+                    "id": "9b9224b6-1df1-4c99-b6d5-b9640257018d",
+                    "type": "IMAGE",
+                    "imageContent": "https://picsum.photos/id/1011/240/240",
+                    "contentDescription": "Guide avatar",
+                    "width": {
+                      "mode": "FIXED",
+                      "dp": 44
+                    },
+                    "height": {
+                      "mode": "FIXED",
+                      "dp": 44
+                    }
+                  },
+                  {
+                    "id": "9965eda2-183f-4bf2-b48f-d3f7af708304",
+                    "type": "COLUMN",
+                    "spacing": 0,
+                    "children": [
+                      {
+                        "id": "5528d677-4efc-4764-ac63-aa9450da4a02",
+                        "type": "TEXT",
+                        "textContent": "Preikestolen hike",
+                        "contentColor": "#FF0F172A"
+                      },
+                      {
+                        "id": "b0a85090-99ec-4263-92a3-97ae524b0f88",
+                        "type": "TEXT",
+                        "textContent": "Guided · 8 km · 4 h",
+                        "contentColor": "#FF64748B"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "fec28062-4e9a-4ef8-a60c-a7fe7e86fe21",
+                "type": "TEXT",
+                "textContent": "Stand on the 604 m Pulpit Rock above Lysefjord. Small groups, local guide, lunch included.",
+                "contentColor": "#FF64748B"
+              },
+              {
+                "id": "270d01d6-5671-4a77-b66b-28d4e25805ed",
+                "type": "ROW",
+                "horizontalAlignment": "END",
+                "verticalArrangement": "CENTER",
+                "spacing": 12,
+                "children": [
+                  {
+                    "id": "99e8dcc8-a512-4cb3-8327-fec53dcc0e72",
+                    "type": "BUTTON",
+                    "textContent": "Details",
+                    "containerColor": "#FFE2E8F0",
+                    "contentColor": "#FF0F172A",
+                    "onClick": {
+                      "type": "OPEN_URL",
+                      "payload": {
+                        "url": "https://en.wikipedia.org/wiki/Preikestolen"
+                      }
+                    }
+                  },
+                  {
+                    "id": "6e6e8b35-3065-4b62-84bf-cdb39b0588fc",
+                    "type": "BUTTON",
+                    "textContent": "Book trip",
+                    "containerColor": "#FF2563EB",
+                    "contentColor": "#FFFFFFFF",
+                    "onClick": {
+                      "type": "SHOW_TOAST",
+                      "payload": {
+                        "message": "Trip booked! See you at the fjord."
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "994f2e1e-3200-45cb-91f9-ca2124481225",
+        "type": "COLUMN",
+        "padding": {
+          "start": 16,
+          "top": 8,
+          "end": 16,
+          "bottom": 24
+        },
+        "horizontalAlignment": "CENTER",
+        "children": [
+          {
+            "id": "74bb962a-a22d-46d4-b9fb-c2ad30db1dee",
+            "type": "TEXT",
+            "textContent": "This screen is a JSON document in MongoDB",
+            "contentColor": "#FF64748B"
+          }
+        ]
+      }
+    ]
+  }
+}

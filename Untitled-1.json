@@ -1,0 +1,106 @@
+{
+  "id": "3f0c1b2e-9a1d-4a4c-8f1e-1e2d3c4b5a60",
+  "name": "home",
+  "root": {
+    "id": "b1e7e9c0-0000-4000-8000-000000000001",
+    "type": "COLUMN",
+    "children": [
+      {
+        "id": "b1e7e9c0-0000-4000-8000-000000000002",
+        "type": "ROW",
+        "children": [
+          {
+            "id": "b1e7e9c0-0000-4000-8000-000000000003",
+            "type": "IMAGE",
+            "children": [],
+            "imageContent": "https://picsum.photos/id/237/200/200",
+            "contentDescription": "Avatar",
+            "width": {
+              "mode": "FIXED",
+              "dp": 70
+            },
+            "height": {
+              "mode": "FIXED",
+              "dp": 48
+            }
+          },
+          {
+            "id": "b1e7e9c0-0000-4000-8000-000000000004",
+            "type": "TEXT",
+            "children": [],
+            "textContent": "Welcome to SSUI",
+            "contentColor": "#FFFFFFFF"
+          }
+        ],
+        "containerColor": "#FF5C638A",
+        "padding": {
+          "start": 12,
+          "top": 12,
+          "end": 12,
+          "bottom": 12
+        },
+        "horizontalAlignment": "START",
+        "verticalArrangement": "CENTER",
+        "spacing": 8
+      },
+      {
+        "id": "b1e7e9c0-0000-4000-8000-000000000005",
+        "type": "IMAGE",
+        "children": [],
+        "imageContent": "https://picsum.photos/id/1015/800/400",
+        "width": {
+          "mode": "FILL"
+        },
+        "height": {
+          "mode": "FIXED",
+          "dp": 180
+        }
+      },
+      {
+        "id": "b1e7e9c0-0000-4000-8000-000000000006",
+        "type": "TEXT",
+        "children": [],
+        "textContent": "This whole screen is described by a JSON document in MongoDB.",
+        "contentColor": "#FF222222"
+      },
+            {
+        "id": "b1e7e9c0-0000-4000-8000-000000000010",
+        "type": "TEXT",
+        "children": [],
+        "textContent": "This whole screen is described by a JSON document in MongoDB.",
+        "contentColor": "#FF222222"
+      },
+      {
+        "id": "b1e7e9c0-0000-4000-8000-000000000009",
+        "type": "TEXT",
+        "children": [],
+        "textContent": "This is another test text that I added using the endpoint in my service",
+        "contentColor": "#FF00000000"
+      }
+      {
+        "id": "b1e7e9c0-0000-4000-8000-000000000007",
+        "type": "BUTTON",
+        "children": [],
+        "textContent": "Tap me",
+        "containerColor": "#FF5C738A",
+        "contentColor": "#FFFFFFFF",
+        "onClick": {
+          "type": "SHOW_TOAST",
+          "payload": {
+            "message": "This is different hello from the server!"
+          }
+        }
+      }
+    ],
+    "containerColor": "#FFF5F5F5",
+    "padding": {
+      "start": 16,
+      "top": 16,
+      "end": 16,
+      "bottom": 16
+    },
+    "horizontalAlignment": "CENTER",
+    "verticalArrangement": "TOP",
+    "spacing": 12
+  }
+}
