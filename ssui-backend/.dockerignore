@@ -1,0 +1,13 @@
+.git/
+.gradle/
+.kotlin/
+build/
+out/
+.idea/
+*.iml
+.vscode/
+.DS_Store
+*.log
+.env
+README.md
+docker-compose.yml

@@ -1,0 +1,32 @@
+name: ssui-backend
+
+services:
+  mongo:
+    image: mongo:7
+    container_name: ssui-mongo
+    ports:
+      - "27017:27017"   # exposed for inspection with Compass / mongosh
+    volumes:
+      - mongo-data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+      start_period: 10s
+
+  backend:
+    build: .
+    container_name: ssui-backend
+    ports:
+      # Host port is configurable: BACKEND_PORT=8081 docker compose up  (defaults to 8080)
+      - "${BACKEND_PORT:-8080}:8080"
+    environment:
+      SPRING_DATA_MONGODB_URI: mongodb://mongo:27017/ssui
+    depends_on:
+      mongo:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  mongo-data:

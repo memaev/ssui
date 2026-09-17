@@ -1,0 +1,29 @@
+server:
+  port: 8080
+  shutdown: graceful
+
+spring:
+  application:
+    name: ssui-backend
+  lifecycle:
+    timeout-per-shutdown-phase: 20s
+  data:
+    mongodb:
+      # Override with the SPRING_DATA_MONGODB_URI env var (docker-compose sets mongodb://mongo:27017/ssui).
+      uri: ${SPRING_DATA_MONGODB_URI:mongodb://localhost:27017/ssui}
+      # Creates the unique index on screens.name declared with @Indexed.
+      auto-index-creation: true
+  jackson:
+    default-property-inclusion: non_null
+    deserialization:
+      fail-on-unknown-properties: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      probes:
+        enabled: true

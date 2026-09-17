@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SSUI</string>
+    <string name="loading_content_description">Loading screen</string>
+    <string name="error_title">Could not load the screen</string>
+    <string name="retry">Retry</string>
+    <string name="refresh_content_description">Refresh from server</string>
+    <string name="open_url_failed">No app can open %1$s</string>
+</resources>
