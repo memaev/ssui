@@ -9,3 +9,6 @@ Thumbs.db
 
 # Local machine config
 **/local.properties
+
+# Scratch files at the repo root (screen JSON experiments); real screens live in demo/ or the backend seed
+/*.json
